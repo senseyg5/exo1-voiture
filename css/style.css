@@ -1,0 +1,27 @@
+.voiture{
+    position: relative;
+    height: 80px;
+    width: 120px;
+    background: rgb(4, 66, 85);
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.voiture h2{
+    text-transform:uppercase;
+    transform: translateY(100%);
+    font-size: 26px;
+    font-weight: 1000;
+    color: #fff;
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: 700;
+    background: rgb(4, 66, 85);
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    
+}
