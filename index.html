@@ -13,11 +13,11 @@
         </div>
     </div>
     <div>
-        <button type="button" id="recule" onclick="bouger(-60, 0, 0)">Reculer</button>
-        <button type="button" id="avance" onclick="bouger(60, 0, 0)">Avancer</button>
-        <button type="button" id="rotate" onclick="bouger(0, 60, 0)">Descendre</button>
-        <button type="button" id="rotate" onclick="bouger(0, -60, 0)">Monter  </button>
-        <button type="button" id="rotate" onclick="bouger(0, 0, 180)">Retourner</button>
+        <button type="button" id="recule" onclick="bouger(Math.cos(posDegInit * Math.PI / 180)*(-60),Math.sin(posDegInit * Math.PI / 180)*(-60) , 0)">Reculer</button>
+        <button type="button" id="avance" onclick="bouger( Math.cos(posDegInit * Math.PI / 180)*60,Math.sin(posDegInit * Math.PI / 180)*(60) , 0)">Avancer</button>
+        <!-- <button type="button" id="rotate" onclick="bouger(0, 60, 0)">Descendre</button>
+        <button type="button" id="rotate" onclick="bouger(0, -60, 0)">Monter  </button> -->
+        <button type="button" id="rotate" onclick="bouger(0, 0, 90)">Retourner</button>
     </div>
     
 </body>
